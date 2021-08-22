@@ -1,0 +1,559 @@
+/* Jumbotron */
+
+.jumbotron {
+  background-size: cover;
+  background-color: #115674;
+  height: 900px;
+}
+
+.nama {
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "poppins";
+}
+
+.jurusan {
+  padding-top: 14px;
+  color: #00b2ff;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "poppins";
+}
+
+.desk-nama {
+  padding-top: 14px;
+  height: 320px;
+  width: 440px;
+  color: #b7d1ef;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins";
+}
+
+.profile_pic {
+  overflow: hidden;
+  border-top-left-radius: 80px;
+}
+
+.profile_pic img {
+  transition: 1s;
+  cursor: pointer;
+  margin-left: 50px;
+  height: 282px;
+  width: 335px;
+  border-top-left-radius: 80px;
+}
+
+.profile_pic img:hover {
+  transform: scale(1.1);
+}
+
+/* Akhir Jumbotron */
+
+/* Awal About */
+
+.about {
+  background-size: cover;
+  background-color: white;
+  height: 870px;
+  position: relative;
+}
+
+.sec-about {
+  color: #115674;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "poppins";
+  text-align: center;
+}
+
+.sec-about::after {
+  position: absolute;
+  content: "";
+  width: 210px;
+  height: 12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3rem;
+  bottom: -0.5rem;
+  background-color: #00b2ff;
+  font-family: "poppins";
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+.des-about {
+  color: #115674;
+  width: 440px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "poppins";
+  text-align: start;
+  padding-top: 40px;
+}
+
+.des-about::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 12px;
+  top: 21rem;
+  left: 0px;
+  bottom: -0.5rem;
+  background-color: #00b2ff;
+  font-family: "poppins";
+  border-radius: 40px;
+}
+
+.hp {
+  width: 340px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Akhir About */
+
+/* Awal pro-skil */
+
+.pro-skill {
+  background-size: cover;
+  background-color: #115674;
+  height: 2550px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.sec-about-skill {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "poppins";
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sec-about-skill::after {
+  position: absolute;
+  content: "";
+  width: 210px;
+  height: 12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3rem;
+  bottom: -0.5rem;
+  background-color: #00b2ff;
+  font-family: "poppins";
+  border-radius: 40px;
+  margin-top: 45px;
+}
+
+.c-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  padding-top: 20px;
+}
+
+.client-box {
+  width: 260px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.client-box .bahasa {
+  font-weight: 500;
+  font-size: 22px;
+  color: black;
+  font-family: "poppins";
+}
+
+.client-box .box {
+  height: 180px;
+  width: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.rating {
+  width: 166px;
+  padding-left: 15px;
+}
+
+.bintang {
+  height: 26px;
+  width: 26px;
+}
+
+.rate {
+  font-size: 18px;
+  color: black;
+  font-family: "poppins";
+  padding-top: 6px;
+  margin-left: 10px;
+}
+
+/* My recent Project */
+
+.my-recent-project {
+  background-size: cover;
+  background-color: white;
+  height: 2000px;
+  position: relative;
+}
+
+.sec-about-re {
+  color: #115674;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "poppins";
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sec-about-re::after {
+  position: absolute;
+  content: "";
+  width: 210px;
+  height: 12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3rem;
+  bottom: -0.5rem;
+  background-color: #00b2ff;
+  font-family: "poppins";
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+.pro1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.des-project {
+  font-weight: 700;
+  font-size: 25px;
+  color: #115674;
+  width: 400px;
+  padding-top: 30px;
+  font-family: "poppins";
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.des-project11 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #909090;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "poppins";
+
+  margin-left: 30px;
+}
+.des-project2 {
+  font-weight: 700;
+  font-size: 52px;
+  color: #115674;
+  padding-top: 30px;
+  font-family: "poppins";
+}
+.pro2 {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-right:auto ;
+  margin-left: auto;
+}
+
+.des-project22 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #909090;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "poppins";
+
+}
+
+.work__img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border-top-left-radius: 100px;
+}
+
+.work__img img {
+  transition: 1s;
+  cursor: pointer;
+  height: 400px;
+  width: 340px;
+  border-top-left-radius: 100px;
+}
+
+.work__img img:hover {
+  transform: scale(1.1);
+}
+
+.work__img2 {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border-top-left-radius: 100px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.work__img2 img {
+  transition: 1s;
+  cursor: pointer;
+  height: 300px;
+  width: 400px;
+  border-top-left-radius: 100px;
+}
+
+.work__img2 img:hover {
+  transform: scale(1.1);
+}
+
+a.button-migrate {
+  display:inline-block;
+  font-family: "poppins";
+  font-size: 32px;
+  font-weight: 500;
+  background-color: #00b2ff;
+  color: white;
+  border-radius: 24px;
+  padding: 10px 80px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+a.button-migrate:hover {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 32px;
+
+  border-radius: 24px;
+  padding: 10px 80px;
+  border: 5px solid #00b2ff;
+  background-color: #FFFFFF;
+  color: #115674;
+}
+a.button-migrate2 {
+  display:inline-block;
+  font-weight: 500;
+
+  font-family: "poppins";
+  font-size: 32px;
+
+  background-color: #00b2ff;
+  color: white;
+  border-radius: 24px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+a.button-migrate2:hover {
+  font-weight: 500;
+  font-family: "poppins";
+  font-size: 32px;
+  border-radius: 24px;
+  padding: 10px 80px;
+  border: 5px solid #00b2ff;
+  background-color: #FFFFFF;
+  color: #115674;
+}
+/* Akhir my recent project */
+
+/* Akhir pro-skil */
+
+/* Awal my-expre */
+
+.My_expression {
+  background-size: cover;
+  background-color: #115674;
+  height: auto;
+  position: relative;
+}
+
+.client-box2 {
+  width: 310px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.star {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+}
+
+.star i {
+  color: #ff9529;
+  width: 40px;
+  height: 40px;
+}
+
+.client-box2 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.client-box2 .star img {
+  width: 30px;
+  height: 28px;
+  border-radius: 0px;
+  margin-right: 10px;
+  object-fit: unset;
+}
+
+.client-box2 p {
+  color: #747474;
+  font-size: 20px;
+  margin: 0px;
+  font-family: "poppins";
+  text-align: center;
+}
+
+.client-box2 a {
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #00b2ff;
+  border-radius: 20px;
+  box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+}
+
+.client-box2 a {
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: "poppins";
+}
+
+.client-box2:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #8edaf1;
+  transition: all ease 0.1s;
+}
+
+.garis {
+  width: 200px;
+  height: 20px;
+  border-radius: 30px;
+  background-color: #115674;
+  content: "";
+  left: 0;
+  right: 0;
+  margin-top: 70px;
+  margin-left: 12px;
+  margin-right: 0;
+}
+/* Akhir my-expres */
+
+/* responsive */
+
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 450px;
+  }
+  .desk-nama {
+    height: 300px;
+    width: 640px;
+  }
+  .profile_pic img {
+    margin-top: 20px;
+  }
+  .about {
+    height: 490px;
+  }
+  .hp {
+    margin-top: -60px;
+  }
+  .des-about {
+    width: 640px;
+  }
+  .des-about::after {
+    top: 16rem;
+  }
+  .pro-skill {
+    height: 810px;
+  }
+  .client-box {
+    width: 220px;
+    height: 280px;
+  }
+  .rating {
+    width: 166px;
+  }
+  .work__img img {
+    height: 800px;
+    width: 500px;
+  }
+  .work__img2 {
+    margin-top: 0px;
+  }
+  .work__img2 img {
+    height: 500px;
+    width: 640px;
+  }
+  .des-project {
+    font-size: 40px;
+    width: 600px;
+    margin-left: 30px;
+  }
+  .des-project11 {
+    font-size: 30px;
+    width: 500px;
+  }
+  .my-recent-project {
+    height: 1700px;
+  }
+  .My_expression {
+    height: auto;
+  }
+  .pro2 {
+    margin-top: 80px;
+    margin-right:0px;
+    margin-left: 0px;
+  }
+  .garis{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
