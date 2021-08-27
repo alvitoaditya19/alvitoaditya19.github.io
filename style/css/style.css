@@ -3,7 +3,7 @@
 .jumbotron {
   background-size: cover;
   background-color: #115674;
-  height: 900px;
+  height: auto;
 }
 
 .nama {
@@ -23,8 +23,6 @@
 
 .desk-nama {
   padding-top: 14px;
-  height: 320px;
-  width: 440px;
   color: #b7d1ef;
   font-size: 20px;
   font-weight: 500;
@@ -40,6 +38,8 @@
   transition: 1s;
   cursor: pointer;
   margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   height: 282px;
   width: 335px;
   border-top-left-radius: 80px;
@@ -56,7 +56,7 @@
 .about {
   background-size: cover;
   background-color: white;
-  height: 870px;
+  height: auto;
   position: relative;
 }
 
@@ -86,19 +86,16 @@
 
 .des-about {
   color: #115674;
-  width: 440px;
   font-size: 20px;
   font-weight: 500;
   font-family: "poppins";
   text-align: start;
-  padding-top: 40px;
+  margin: 30px 0px;
 }
 
 .des-about::after {
   position: absolute;
   content: "";
-  width: 100px;
-  height: 12px;
   top: 21rem;
   left: 0px;
   bottom: -0.5rem;
@@ -214,7 +211,7 @@
 .my-recent-project {
   background-size: cover;
   background-color: white;
-  height: 2000px;
+  height: auto;
   position: relative;
 }
 
@@ -281,7 +278,7 @@
 .pro2 {
   margin-top: 30px;
   margin-bottom: 80px;
-  margin-right:auto ;
+  margin-right: auto;
   margin-left: auto;
 }
 
@@ -292,7 +289,6 @@
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: "poppins";
-
 }
 
 .work__img {
@@ -336,7 +332,7 @@
 }
 
 a.button-migrate {
-  display:inline-block;
+  display: inline-block;
   font-family: "poppins";
   font-size: 32px;
   font-weight: 500;
@@ -356,11 +352,11 @@ a.button-migrate:hover {
   border-radius: 24px;
   padding: 10px 80px;
   border: 5px solid #00b2ff;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #115674;
 }
 a.button-migrate2 {
-  display:inline-block;
+  display: inline-block;
   font-weight: 500;
 
   font-family: "poppins";
@@ -380,7 +376,7 @@ a.button-migrate2:hover {
   border-radius: 24px;
   padding: 10px 80px;
   border: 5px solid #00b2ff;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #115674;
 }
 /* Akhir my recent project */
@@ -489,24 +485,12 @@ a.button-migrate2:hover {
 /* responsive */
 
 @media (min-width: 992px) {
-  .jumbotron {
-    height: 450px;
-  }
-  .desk-nama {
-    height: 300px;
-    width: 640px;
-  }
   .profile_pic img {
     margin-top: 20px;
   }
-  .about {
-    height: 490px;
-  }
   .hp {
     margin-top: -60px;
-  }
-  .des-about {
-    width: 640px;
+    margin-bottom: 40px;
   }
   .des-about::after {
     top: 16rem;
@@ -541,18 +525,12 @@ a.button-migrate2:hover {
     font-size: 30px;
     width: 500px;
   }
-  .my-recent-project {
-    height: 1700px;
-  }
-  .My_expression {
-    height: auto;
-  }
   .pro2 {
     margin-top: 80px;
-    margin-right:0px;
+    margin-right: 0px;
     margin-left: 0px;
   }
-  .garis{
+  .garis {
     margin-left: auto;
     margin-right: auto;
   }
